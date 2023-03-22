@@ -1,0 +1,70 @@
+*{
+    margin:0;
+}
+body{
+    overflow: hidden;
+    text-align: center;
+}
+#status{
+    background-color: rgb(3, 187, 3);
+    height: 80px;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+h5{
+    font-size: x-large;
+}
+#logowanie{
+    font-size: xx-large;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    width:500px;
+    height: 300px;
+    top:110px;
+    margin-left: -250px;
+    text-align: center;
+    border: 15px dotted rgb(3, 187, 3);
+    padding: 25px;
+    color: rgb(3, 187, 3);
+}
+button{
+    font-size: xx-large;
+    position: relative;
+    width: 80px;
+    display:block;
+    margin-top: 30px;
+    left: 180px;
+    background-color: rgb(3, 187, 3);
+    width: 150px;
+    height: 60px;
+}
+input{
+    margin: 10px;
+    text-align: center;
+    background: transparent;
+    color:WHITE;
+    border: 3px solid rgb(3, 187, 3);
+}
+#czek,#czas{
+   position: absolute;
+   left: 40%;
+   top:300px;
+   color: green;
+}
+#licznik {
+    position: absolute;
+    font-size: 200px;
+    left: 40%;
+    top:400px;
+    color: green;
+ }
+ #licznik2{
+    position: absolute;
+    font-size: 100px;
+    left: 1%;
+    top:400px;
+    color: green;
+ }
